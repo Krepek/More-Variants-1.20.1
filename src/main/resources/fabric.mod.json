@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "morevariants",
+	"version": "${version}",
+	"name": "MoreVariants",
+	"description": "Adds more stick variants to the game!",
+	"authors": [
+		"Krepek"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/morevariants/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.krepek.morevariants.MoreVariants"
+		],
+		"client": [
+			"net.krepek.morevariants.MoreVariantsClient"
+		],
+		"fabric-datagen": [
+			"net.krepek.morevariants.MoreVariantsDataGenerator"
+		]
+	},
+	"mixins": [
+		"morevariants.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.6",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
