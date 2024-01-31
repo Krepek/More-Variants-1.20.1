@@ -15,6 +15,7 @@ public class ModItemGroups {
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.more_variants"))
                     .icon( () -> new ItemStack(ModItems.CHERRY_STICK)).entries((displayContext, entries) -> {
                             entries.add(ModItems.CHERRY_STICK);
+                            entries.add(ModItems.WARPED_STICK);
 
                     }).build());
     public static void registerItemGroups() {

@@ -12,8 +12,10 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item CHERRY_STICK = registerItem("cherry_stick", new Item(new FabricItemSettings()));
+    public static final Item WARPED_STICK = registerItem("warped_stick", new Item(new FabricItemSettings()));
     private static void addItemsToIngredientTabItemGroup(FabricItemGroupEntries entries)    {
         entries.add(CHERRY_STICK);
+        entries.add(WARPED_STICK);
     }
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(MoreVariants.MOD_ID, name), item);

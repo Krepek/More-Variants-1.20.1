@@ -1,5 +1,7 @@
 {
+  "item.minecraft.stick": "Oak Stick",
   "item.morevariants.cherry_stick": "Cherry Stick",
+  "item.morevariants.warped_stick": "Warped Stick",
 
   "itemgroup.more_variants": "More Variants"
 }
