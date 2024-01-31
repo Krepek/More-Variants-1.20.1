@@ -16,6 +16,8 @@ public class ModItemGroups {
                     .icon( () -> new ItemStack(ModItems.CHERRY_STICK)).entries((displayContext, entries) -> {
                             entries.add(ModItems.CHERRY_STICK);
                             entries.add(ModItems.WARPED_STICK);
+                            entries.add(ModItems.BIRCH_STICK);
+                            entries.add(ModItems.CRIMSON_STICK);
 
                     }).build());
     public static void registerItemGroups() {
