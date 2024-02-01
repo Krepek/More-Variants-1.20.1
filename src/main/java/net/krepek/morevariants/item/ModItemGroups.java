@@ -14,13 +14,19 @@ public class ModItemGroups {
             new Identifier(MoreVariants.MOD_ID,"cherry"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.more_variants"))
                     .icon( () -> new ItemStack(ModItems.CHERRY_STICK)).entries((displayContext, entries) -> {
-                            entries.add(ModItems.CHERRY_STICK);
-                            entries.add(ModItems.WARPED_STICK);
+                            entries.add(ModItems.SPRUCE_STICK);
                             entries.add(ModItems.BIRCH_STICK);
+                            entries.add(ModItems.JUNGLE_STICK);
+                            entries.add(ModItems.ACCACIA_STICK);
+                            entries.add(ModItems.DARK_OAK_STICK);
+                            entries.add(ModItems.MANGROVE_STICK);
+                            entries.add(ModItems.BAMBOO_STICK);
                             entries.add(ModItems.CRIMSON_STICK);
+                            entries.add(ModItems.WARPED_STICK);
+                            entries.add(ModItems.CHERRY_STICK);
 
                     }).build());
     public static void registerItemGroups() {
-        MoreVariants.LOGGER.info("Registering Item Griups  for" +MoreVariants.MOD_ID);
+        MoreVariants.LOGGER.info(MoreVariants.MOD_ID);
     }
 }
