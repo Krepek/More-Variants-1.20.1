@@ -17,7 +17,7 @@ public class ModItemGroups {
                             entries.add(ModItems.SPRUCE_STICK);
                             entries.add(ModItems.BIRCH_STICK);
                             entries.add(ModItems.JUNGLE_STICK);
-                            entries.add(ModItems.ACCACIA_STICK);
+                            entries.add(ModItems.ACACIA_STICK);
                             entries.add(ModItems.DARK_OAK_STICK);
                             entries.add(ModItems.MANGROVE_STICK);
                             entries.add(ModItems.BAMBOO_STICK);

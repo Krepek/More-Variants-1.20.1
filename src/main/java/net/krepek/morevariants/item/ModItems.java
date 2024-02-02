@@ -13,7 +13,7 @@ public class ModItems {
     public static final Item WARPED_STICK = registerItem("warped_stick", new Item(new FabricItemSettings()));
     public static final Item CRIMSON_STICK = registerItem("crimson_stick", new Item(new FabricItemSettings()));
     public static final Item BIRCH_STICK = registerItem("birch_stick", new Item(new FabricItemSettings()));
-    public static final Item ACCACIA_STICK = registerItem("accacia_stick", new Item(new FabricItemSettings()));
+    public static final Item ACACIA_STICK = registerItem("acacia_stick", new Item(new FabricItemSettings()));
     public static final Item BAMBOO_STICK = registerItem("bamboo_stick", new Item(new FabricItemSettings()));
     public static final Item DARK_OAK_STICK = registerItem("dark_oak_stick", new Item(new FabricItemSettings()));
     public static final Item JUNGLE_STICK = registerItem("jungle_stick", new Item(new FabricItemSettings()));
@@ -24,7 +24,7 @@ public class ModItems {
         entries.add(WARPED_STICK);
         entries.add(CRIMSON_STICK);
         entries.add(BIRCH_STICK);
-        entries.add(ACCACIA_STICK);
+        entries.add(ACACIA_STICK);
         entries.add(BAMBOO_STICK);
         entries.add(DARK_OAK_STICK);
         entries.add(JUNGLE_STICK);
